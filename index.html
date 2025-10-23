@@ -7,24 +7,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/favicon.png" type="image/png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
     <link rel="stylesheet" href="index.css">
     <title>Alivio_page</title>
 </head>
 
 <body>
-    hello!
-        <svg>
-        <use href="assets/sprites.svg#logo-icon"></use>
-        </svg>
-    <svg>
-        <use href="assets/sprites.svg#burger-icon"></use>
-      </svg>
-      <svg>
-        <use href="assets/sprites.svg#cross-icon"></use>
-      </svg>
+        <header class="header" aria-label="header">
+        <div class="container">
+            <div class="header__wrapper" aria-label="header wrapper">
+                <svg class="logo" aria-label="logo">
+                    <use href="assets/sprites.svg#logo-icon" aria-label="logo icon"></use>
+                </svg>
+                <nav class="header__nav" aria-label="header navigation">
+                    <ul class="header__nav-list" aria-label="navigation list">
+                        <li class="header__nav-item" aria-label="navigation item">
+                            <a href="#" class="header__nav-link">Why Alivio</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Solution</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Community</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+<div class="header__action">
+    <button type="button" class="btn btn-signin">Sign in</button>
+    <button type="button" class="btn">Start Trial</button>
+</div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
