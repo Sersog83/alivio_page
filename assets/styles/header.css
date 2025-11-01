@@ -11,9 +11,7 @@
     
 }
 
-.header__nav {
 
-}
 
 .header__nav-list {
 display: flex;
@@ -23,9 +21,7 @@ column-gap: 70px;
 column-gap: min(70px, 5vw);
 }
 
-.header__nav-item {
 
-}
 
 .header__nav-link {
     font-weight: 500;
