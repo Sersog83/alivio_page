@@ -1,69 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="assets/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Alivio_page</title>
-  </head>
 
-  <body>
-    <header class="header" aria-label="header">
-      <div class="container">
-        <div class="header__wrapper" aria-label="header wrapper">
-          <svg class="logo" aria-label="logo">
-            <use
-              href="assets/sprites.svg#logo-icon">
-            </use>
-          </svg>
-          <nav class="header__nav" aria-label="header navigation">
-            <ul class="header__nav-list" aria-label="navigation list">
-              <li class="header__nav-item" aria-label="navigation item">
-                <a href="#" class="header__nav-link">Why Alivio</a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Solution</a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Community</a>
-              </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Pricing</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="header__action">
-            <button type="button" class="btn btn-signin">Sign in</button>
-            <button type="button" class="btn">Start Trial</button>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Alivio_page</title>
+</head>
+
+<body>
+  <header class="header" aria-label="header">
+    <div class="container">
+      <div class="header__wrapper" aria-label="header wrapper">
+        <svg class="logo" aria-label="logo">
+          <use href="assets/sprites.svg#logo-icon">
+          </use>
+        </svg>
+        <nav class="header__nav" aria-label="header navigation">
+          <ul class="header__nav-list" aria-label="navigation list">
+            <li class="header__nav-item" aria-label="navigation item">
+              <a href="#" class="header__nav-link">Why Alivio</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Solution</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Community</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__action">
+          <button type="button" class="btn btn-signin">Sign in</button>
+          <button type="button" class="btn">Start Trial</button>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="hero" aria-label="hero section">
-        <div class="container">
-          <div class="hero__content" aria-label="hero content">
-            <h1 class="hero__title" aria-label="hero title">
-              Be aware, Manage well.
-            </h1>
-            <p class="hero__description" aria-label="hero hero__description">
-              Everyone experiences stress in different ways. Let Alivio guide
-              you, in a personalized journal experience, to overcome your
-              stress.
-            </p>
-          </div>
-          <button type="button" class="btn">Find Your Way</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-label="hero section">
+      <div class="container">
+        <div class="hero__content" aria-label="hero content">
+          <h1 class="hero__title" aria-label="hero title">
+            Be aware, Manage well.
+          </h1>
+          <p class="hero__description" aria-label="hero hero__description">
+            Everyone experiences stress in different ways. Let Alivio guide
+            you, in a personalized journal experience, to overcome your
+            stress.
+          </p>
         </div>
-      </section>
-    </main>
-  </body>
+        <button type="button" class="btn">Find Your Way</button>
+      </div>
+    </section>
+    <section class="about" aria-label="about section">
+      <div class="container">
+           <div class="about__content" aria-label="about content">
+          <h2 class="about__title" aria-label="about title">Understand & Release the stress in 3 steps</h2>
+          <p class="about__description" aria-label="about description">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+        </div>
+        <div class="about__cards" aria-label="about cards">
+
+          <figure class="card" aria-label="card 1">
+            <h3 class="card__title " aria-label="card title 1">Personalize</h3>
+            <p class="card__description" aria-label="card description">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+            <img src="assets/webp/Picture 1.webp" alt="card image 1" class="card_image">
+          </figure>
+
+          <figure class="card" aria-label="card 2">
+            <h3 class="card__title card__title--right card__title--second" aria-label="card title 2">Write & Understand</h3>
+            <p class="card__description" aria-label="card description">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+            <img src="assets/webp/Picture 2.webp" alt="card image 2" class="card_image">
+          </figure>
+
+          <figure class="card" aria-label="card 3">
+            <h3 class="card__title card__title--third" aria-label="card title 3">Alivio!</h3>
+            <p class="card__description" aria-label="card description">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</p>
+            <img src="assets/webp/Picture 3.webp" alt="card image 3" class="card_image">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
